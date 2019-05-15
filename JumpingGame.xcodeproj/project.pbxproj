@@ -1,0 +1,700 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8FAA68D721B3762A0053B3D1 /* ground-sprite-png-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FAA68D621B3762A0053B3D1 /* ground-sprite-png-2.png */; };
+		8FE898422159F1FF0006A0FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE898412159F1FF0006A0FB /* AppDelegate.swift */; };
+		8FE898442159F1FF0006A0FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE898432159F1FF0006A0FB /* ViewController.swift */; };
+		8FE898472159F1FF0006A0FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FE898452159F1FF0006A0FB /* Main.storyboard */; };
+		8FE898492159F2030006A0FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FE898482159F2030006A0FB /* Assets.xcassets */; };
+		8FE8984C2159F2030006A0FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FE8984A2159F2030006A0FB /* LaunchScreen.storyboard */; };
+		8FE898572159F2030006A0FB /* JumpingGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE898562159F2030006A0FB /* JumpingGameTests.swift */; };
+		8FE898622159F2030006A0FB /* JumpingGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE898612159F2030006A0FB /* JumpingGameUITests.swift */; };
+		8FE898702159FD840006A0FB /* GameScence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE8986F2159FD840006A0FB /* GameScence.swift */; };
+		8FE89895215E078C0006A0FB /* bullet.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FE89894215E078B0006A0FB /* bullet.png */; };
+		8FE898B221626FA20006A0FB /* ground-sprite-png-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FE898B121626FA20006A0FB /* ground-sprite-png-1.png */; };
+		8FE898C0216270B20006A0FB /* ground-sprite-png-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FE898BF216270B20006A0FB /* ground-sprite-png-3.png */; };
+		8FE898C82163C1E20006A0FB /* woodwall.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FE898C72163C1E20006A0FB /* woodwall.png */; };
+		8FE898CA21644AD10006A0FB /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE898C921644AD10006A0FB /* GameOverScene.swift */; };
+		8FE898D22164AC670006A0FB /* Tropics_Forests_511784_1440x2560.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FE898D12164AC660006A0FB /* Tropics_Forests_511784_1440x2560.jpg */; };
+		8FE898D42164AF3A0006A0FB /* Mystic_Ruins_Cutscene_Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FE898D32164AF3A0006A0FB /* Mystic_Ruins_Cutscene_Background.png */; };
+		8FE898D82164C6040006A0FB /* 665598.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FE898D72164C6040006A0FB /* 665598.png */; };
+		8FE898DD2164F9040006A0FB /* Jump.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 8FE898DC2164F9040006A0FB /* Jump.atlas */; };
+		8FE898E12164F9130006A0FB /* Run.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 8FE898DE2164F9120006A0FB /* Run.atlas */; };
+		8FE898E32164F9130006A0FB /* Slide.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 8FE898E02164F9130006A0FB /* Slide.atlas */; };
+		8FE898E92164FBE20006A0FB /* Run.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FE898E82164FBE20006A0FB /* Run.png */; };
+		8FE898EF2164FF210006A0FB /* Helicopter.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FE898EE2164FF210006A0FB /* Helicopter.png */; };
+		8FE898F121663CCD0006A0FB /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE898F021663CCC0006A0FB /* Title.swift */; };
+		8FE898F6216653490006A0FB /* helicopter-sprite-png copy 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FE898F2216653480006A0FB /* helicopter-sprite-png copy 2.png */; };
+		8FE898FB216653BD0006A0FB /* helicopter-sprite-png.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 8FE898FA216653BD0006A0FB /* helicopter-sprite-png.atlas */; };
+		8FE898FD2167357A0006A0FB /* Jump 1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8FE898FC2167357A0006A0FB /* Jump 1.wav */; };
+		8FE898FF216736720006A0FB /* sfx_jump.flac in Resources */ = {isa = PBXBuildFile; fileRef = 8FE898FE216736720006A0FB /* sfx_jump.flac */; };
+		8FE899032167381F0006A0FB /* Chase.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8FE899022167381F0006A0FB /* Chase.mp3 */; };
+		8FE89905216739A10006A0FB /* Menu Music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8FE89904216739A10006A0FB /* Menu Music.mp3 */; };
+		8FE8990821673A800006A0FB /* Fun Adventure.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8FE8990621673A800006A0FB /* Fun Adventure.mp3 */; };
+		8FE8990921673A800006A0FB /* The_Endless_Journey.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8FE8990721673A800006A0FB /* The_Endless_Journey.mp3 */; };
+		8FE8990B21677DC10006A0FB /* Rues-whistle-piano.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8FE8990A21677DC10006A0FB /* Rues-whistle-piano.mp3 */; };
+		8FE8990D21677EF40006A0FB /* 126416__cabeeno-rossley__jump.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8FE8990C21677EF30006A0FB /* 126416__cabeeno-rossley__jump.wav */; };
+		8FE8990F216789B30006A0FB /* 43696__notchfilter__game-over01.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8FE8990E216789B30006A0FB /* 43696__notchfilter__game-over01.wav */; };
+		8FE8991121678B860006A0FB /* helicopter-fly-over-01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8FE8991021678B860006A0FB /* helicopter-fly-over-01.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8FE898532159F2030006A0FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FE898362159F1FF0006A0FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FE8983D2159F1FF0006A0FB;
+			remoteInfo = JumpingGame;
+		};
+		8FE8985E2159F2030006A0FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FE898362159F1FF0006A0FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FE8983D2159F1FF0006A0FB;
+			remoteInfo = JumpingGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8FAA68D621B3762A0053B3D1 /* ground-sprite-png-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ground-sprite-png-2.png"; sourceTree = "<group>"; };
+		8FE8983E2159F1FF0006A0FB /* JumpingGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JumpingGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FE898412159F1FF0006A0FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8FE898432159F1FF0006A0FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8FE898462159F1FF0006A0FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8FE898482159F2030006A0FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8FE8984B2159F2030006A0FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8FE8984D2159F2030006A0FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FE898522159F2030006A0FB /* JumpingGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JumpingGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FE898562159F2030006A0FB /* JumpingGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpingGameTests.swift; sourceTree = "<group>"; };
+		8FE898582159F2030006A0FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FE8985D2159F2030006A0FB /* JumpingGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JumpingGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FE898612159F2030006A0FB /* JumpingGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpingGameUITests.swift; sourceTree = "<group>"; };
+		8FE898632159F2030006A0FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FE8986F2159FD840006A0FB /* GameScence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScence.swift; sourceTree = "<group>"; };
+		8FE89894215E078B0006A0FB /* bullet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bullet.png; sourceTree = "<group>"; };
+		8FE898B121626FA20006A0FB /* ground-sprite-png-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ground-sprite-png-1.png"; sourceTree = "<group>"; };
+		8FE898BF216270B20006A0FB /* ground-sprite-png-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ground-sprite-png-3.png"; sourceTree = "<group>"; };
+		8FE898C72163C1E20006A0FB /* woodwall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = woodwall.png; sourceTree = "<group>"; };
+		8FE898C921644AD10006A0FB /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		8FE898D12164AC660006A0FB /* Tropics_Forests_511784_1440x2560.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tropics_Forests_511784_1440x2560.jpg; sourceTree = "<group>"; };
+		8FE898D32164AF3A0006A0FB /* Mystic_Ruins_Cutscene_Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mystic_Ruins_Cutscene_Background.png; sourceTree = "<group>"; };
+		8FE898D72164C6040006A0FB /* 665598.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 665598.png; sourceTree = "<group>"; };
+		8FE898DC2164F9040006A0FB /* Jump.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Jump.atlas; sourceTree = "<group>"; };
+		8FE898DE2164F9120006A0FB /* Run.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Run.atlas; sourceTree = "<group>"; };
+		8FE898E02164F9130006A0FB /* Slide.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Slide.atlas; sourceTree = "<group>"; };
+		8FE898E82164FBE20006A0FB /* Run.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Run.png; sourceTree = "<group>"; };
+		8FE898EE2164FF210006A0FB /* Helicopter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Helicopter.png; sourceTree = "<group>"; };
+		8FE898F021663CCC0006A0FB /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
+		8FE898F2216653480006A0FB /* helicopter-sprite-png copy 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "helicopter-sprite-png copy 2.png"; sourceTree = "<group>"; };
+		8FE898FA216653BD0006A0FB /* helicopter-sprite-png.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = "helicopter-sprite-png.atlas"; sourceTree = "<group>"; };
+		8FE898FC2167357A0006A0FB /* Jump 1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Jump 1.wav"; sourceTree = "<group>"; };
+		8FE898FE216736720006A0FB /* sfx_jump.flac */ = {isa = PBXFileReference; lastKnownFileType = file; path = sfx_jump.flac; sourceTree = "<group>"; };
+		8FE899022167381F0006A0FB /* Chase.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Chase.mp3; sourceTree = "<group>"; };
+		8FE89904216739A10006A0FB /* Menu Music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Menu Music.mp3"; sourceTree = "<group>"; };
+		8FE8990621673A800006A0FB /* Fun Adventure.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Fun Adventure.mp3"; sourceTree = "<group>"; };
+		8FE8990721673A800006A0FB /* The_Endless_Journey.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = The_Endless_Journey.mp3; sourceTree = "<group>"; };
+		8FE8990A21677DC10006A0FB /* Rues-whistle-piano.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Rues-whistle-piano.mp3"; sourceTree = "<group>"; };
+		8FE8990C21677EF30006A0FB /* 126416__cabeeno-rossley__jump.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "126416__cabeeno-rossley__jump.wav"; sourceTree = "<group>"; };
+		8FE8990E216789B30006A0FB /* 43696__notchfilter__game-over01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "43696__notchfilter__game-over01.wav"; sourceTree = "<group>"; };
+		8FE8991021678B860006A0FB /* helicopter-fly-over-01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "helicopter-fly-over-01.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FE8983B2159F1FF0006A0FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FE8984F2159F2030006A0FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FE8985A2159F2030006A0FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8FE898352159F1FF0006A0FB = {
+			isa = PBXGroup;
+			children = (
+				8FE8991021678B860006A0FB /* helicopter-fly-over-01.mp3 */,
+				8FE8990E216789B30006A0FB /* 43696__notchfilter__game-over01.wav */,
+				8FE8990C21677EF30006A0FB /* 126416__cabeeno-rossley__jump.wav */,
+				8FE8990A21677DC10006A0FB /* Rues-whistle-piano.mp3 */,
+				8FE8990621673A800006A0FB /* Fun Adventure.mp3 */,
+				8FE8990721673A800006A0FB /* The_Endless_Journey.mp3 */,
+				8FE89904216739A10006A0FB /* Menu Music.mp3 */,
+				8FE899022167381F0006A0FB /* Chase.mp3 */,
+				8FE898402159F1FF0006A0FB /* JumpingGame */,
+				8FE898552159F2030006A0FB /* JumpingGameTests */,
+				8FE898602159F2030006A0FB /* JumpingGameUITests */,
+				8FE8983F2159F1FF0006A0FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8FE8983F2159F1FF0006A0FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FE8983E2159F1FF0006A0FB /* JumpingGame.app */,
+				8FE898522159F2030006A0FB /* JumpingGameTests.xctest */,
+				8FE8985D2159F2030006A0FB /* JumpingGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FE898402159F1FF0006A0FB /* JumpingGame */ = {
+			isa = PBXGroup;
+			children = (
+				8FAA68D621B3762A0053B3D1 /* ground-sprite-png-2.png */,
+				8FE898FE216736720006A0FB /* sfx_jump.flac */,
+				8FE898FC2167357A0006A0FB /* Jump 1.wav */,
+				8FE898FA216653BD0006A0FB /* helicopter-sprite-png.atlas */,
+				8FE898F2216653480006A0FB /* helicopter-sprite-png copy 2.png */,
+				8FE898EE2164FF210006A0FB /* Helicopter.png */,
+				8FE898E82164FBE20006A0FB /* Run.png */,
+				8FE898DE2164F9120006A0FB /* Run.atlas */,
+				8FE898E02164F9130006A0FB /* Slide.atlas */,
+				8FE898DC2164F9040006A0FB /* Jump.atlas */,
+				8FE898D72164C6040006A0FB /* 665598.png */,
+				8FE898D32164AF3A0006A0FB /* Mystic_Ruins_Cutscene_Background.png */,
+				8FE898D12164AC660006A0FB /* Tropics_Forests_511784_1440x2560.jpg */,
+				8FE898482159F2030006A0FB /* Assets.xcassets */,
+				8FE898C72163C1E20006A0FB /* woodwall.png */,
+				8FE898B121626FA20006A0FB /* ground-sprite-png-1.png */,
+				8FE898BF216270B20006A0FB /* ground-sprite-png-3.png */,
+				8FE89894215E078B0006A0FB /* bullet.png */,
+				8FE8986F2159FD840006A0FB /* GameScence.swift */,
+				8FE898412159F1FF0006A0FB /* AppDelegate.swift */,
+				8FE898432159F1FF0006A0FB /* ViewController.swift */,
+				8FE898C921644AD10006A0FB /* GameOverScene.swift */,
+				8FE898F021663CCC0006A0FB /* Title.swift */,
+				8FE898452159F1FF0006A0FB /* Main.storyboard */,
+				8FE8984A2159F2030006A0FB /* LaunchScreen.storyboard */,
+				8FE8984D2159F2030006A0FB /* Info.plist */,
+			);
+			path = JumpingGame;
+			sourceTree = "<group>";
+		};
+		8FE898552159F2030006A0FB /* JumpingGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				8FE898562159F2030006A0FB /* JumpingGameTests.swift */,
+				8FE898582159F2030006A0FB /* Info.plist */,
+			);
+			path = JumpingGameTests;
+			sourceTree = "<group>";
+		};
+		8FE898602159F2030006A0FB /* JumpingGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8FE898612159F2030006A0FB /* JumpingGameUITests.swift */,
+				8FE898632159F2030006A0FB /* Info.plist */,
+			);
+			path = JumpingGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FE8983D2159F1FF0006A0FB /* JumpingGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FE898662159F2030006A0FB /* Build configuration list for PBXNativeTarget "JumpingGame" */;
+			buildPhases = (
+				8FE8983A2159F1FF0006A0FB /* Sources */,
+				8FE8983B2159F1FF0006A0FB /* Frameworks */,
+				8FE8983C2159F1FF0006A0FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JumpingGame;
+			productName = JumpingGame;
+			productReference = 8FE8983E2159F1FF0006A0FB /* JumpingGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8FE898512159F2030006A0FB /* JumpingGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FE898692159F2030006A0FB /* Build configuration list for PBXNativeTarget "JumpingGameTests" */;
+			buildPhases = (
+				8FE8984E2159F2030006A0FB /* Sources */,
+				8FE8984F2159F2030006A0FB /* Frameworks */,
+				8FE898502159F2030006A0FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FE898542159F2030006A0FB /* PBXTargetDependency */,
+			);
+			name = JumpingGameTests;
+			productName = JumpingGameTests;
+			productReference = 8FE898522159F2030006A0FB /* JumpingGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8FE8985C2159F2030006A0FB /* JumpingGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FE8986C2159F2030006A0FB /* Build configuration list for PBXNativeTarget "JumpingGameUITests" */;
+			buildPhases = (
+				8FE898592159F2030006A0FB /* Sources */,
+				8FE8985A2159F2030006A0FB /* Frameworks */,
+				8FE8985B2159F2030006A0FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FE8985F2159F2030006A0FB /* PBXTargetDependency */,
+			);
+			name = JumpingGameUITests;
+			productName = JumpingGameUITests;
+			productReference = 8FE8985D2159F2030006A0FB /* JumpingGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FE898362159F1FF0006A0FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Nguyễn Trí";
+				TargetAttributes = {
+					8FE8983D2159F1FF0006A0FB = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
+					};
+					8FE898512159F2030006A0FB = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
+						TestTargetID = 8FE8983D2159F1FF0006A0FB;
+					};
+					8FE8985C2159F2030006A0FB = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
+						TestTargetID = 8FE8983D2159F1FF0006A0FB;
+					};
+				};
+			};
+			buildConfigurationList = 8FE898392159F1FF0006A0FB /* Build configuration list for PBXProject "JumpingGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8FE898352159F1FF0006A0FB;
+			productRefGroup = 8FE8983F2159F1FF0006A0FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FE8983D2159F1FF0006A0FB /* JumpingGame */,
+				8FE898512159F2030006A0FB /* JumpingGameTests */,
+				8FE8985C2159F2030006A0FB /* JumpingGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FE8983C2159F1FF0006A0FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FE898EF2164FF210006A0FB /* Helicopter.png in Resources */,
+				8FE898FF216736720006A0FB /* sfx_jump.flac in Resources */,
+				8FE898C0216270B20006A0FB /* ground-sprite-png-3.png in Resources */,
+				8FE898D82164C6040006A0FB /* 665598.png in Resources */,
+				8FE898FD2167357A0006A0FB /* Jump 1.wav in Resources */,
+				8FE8990F216789B30006A0FB /* 43696__notchfilter__game-over01.wav in Resources */,
+				8FE8990821673A800006A0FB /* Fun Adventure.mp3 in Resources */,
+				8FE8990921673A800006A0FB /* The_Endless_Journey.mp3 in Resources */,
+				8FE898E12164F9130006A0FB /* Run.atlas in Resources */,
+				8FE8984C2159F2030006A0FB /* LaunchScreen.storyboard in Resources */,
+				8FE8991121678B860006A0FB /* helicopter-fly-over-01.mp3 in Resources */,
+				8FE898D42164AF3A0006A0FB /* Mystic_Ruins_Cutscene_Background.png in Resources */,
+				8FE8990B21677DC10006A0FB /* Rues-whistle-piano.mp3 in Resources */,
+				8FE898492159F2030006A0FB /* Assets.xcassets in Resources */,
+				8FE898C82163C1E20006A0FB /* woodwall.png in Resources */,
+				8FE89895215E078C0006A0FB /* bullet.png in Resources */,
+				8FE898F6216653490006A0FB /* helicopter-sprite-png copy 2.png in Resources */,
+				8FE898D22164AC670006A0FB /* Tropics_Forests_511784_1440x2560.jpg in Resources */,
+				8FE89905216739A10006A0FB /* Menu Music.mp3 in Resources */,
+				8FE8990D21677EF40006A0FB /* 126416__cabeeno-rossley__jump.wav in Resources */,
+				8FAA68D721B3762A0053B3D1 /* ground-sprite-png-2.png in Resources */,
+				8FE898DD2164F9040006A0FB /* Jump.atlas in Resources */,
+				8FE898E32164F9130006A0FB /* Slide.atlas in Resources */,
+				8FE899032167381F0006A0FB /* Chase.mp3 in Resources */,
+				8FE898472159F1FF0006A0FB /* Main.storyboard in Resources */,
+				8FE898B221626FA20006A0FB /* ground-sprite-png-1.png in Resources */,
+				8FE898FB216653BD0006A0FB /* helicopter-sprite-png.atlas in Resources */,
+				8FE898E92164FBE20006A0FB /* Run.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FE898502159F2030006A0FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FE8985B2159F2030006A0FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FE8983A2159F1FF0006A0FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FE898F121663CCD0006A0FB /* Title.swift in Sources */,
+				8FE898442159F1FF0006A0FB /* ViewController.swift in Sources */,
+				8FE898422159F1FF0006A0FB /* AppDelegate.swift in Sources */,
+				8FE898CA21644AD10006A0FB /* GameOverScene.swift in Sources */,
+				8FE898702159FD840006A0FB /* GameScence.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FE8984E2159F2030006A0FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FE898572159F2030006A0FB /* JumpingGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FE898592159F2030006A0FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FE898622159F2030006A0FB /* JumpingGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8FE898542159F2030006A0FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FE8983D2159F1FF0006A0FB /* JumpingGame */;
+			targetProxy = 8FE898532159F2030006A0FB /* PBXContainerItemProxy */;
+		};
+		8FE8985F2159F2030006A0FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FE8983D2159F1FF0006A0FB /* JumpingGame */;
+			targetProxy = 8FE8985E2159F2030006A0FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8FE898452159F1FF0006A0FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FE898462159F1FF0006A0FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8FE8984A2159F2030006A0FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FE8984B2159F2030006A0FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8FE898642159F2030006A0FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8FE898652159F2030006A0FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FE898672159F2030006A0FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2HVMV7BHNV;
+				INFOPLIST_FILE = JumpingGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = graph.JumpingGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8FE898682159F2030006A0FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2HVMV7BHNV;
+				INFOPLIST_FILE = JumpingGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = graph.JumpingGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8FE8986A2159F2030006A0FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JumpingGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = graph.JumpingGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JumpingGame.app/JumpingGame";
+			};
+			name = Debug;
+		};
+		8FE8986B2159F2030006A0FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JumpingGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = graph.JumpingGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JumpingGame.app/JumpingGame";
+			};
+			name = Release;
+		};
+		8FE8986D2159F2030006A0FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JumpingGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = graph.JumpingGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JumpingGame;
+			};
+			name = Debug;
+		};
+		8FE8986E2159F2030006A0FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JumpingGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = graph.JumpingGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JumpingGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FE898392159F1FF0006A0FB /* Build configuration list for PBXProject "JumpingGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FE898642159F2030006A0FB /* Debug */,
+				8FE898652159F2030006A0FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FE898662159F2030006A0FB /* Build configuration list for PBXNativeTarget "JumpingGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FE898672159F2030006A0FB /* Debug */,
+				8FE898682159F2030006A0FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FE898692159F2030006A0FB /* Build configuration list for PBXNativeTarget "JumpingGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FE8986A2159F2030006A0FB /* Debug */,
+				8FE8986B2159F2030006A0FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FE8986C2159F2030006A0FB /* Build configuration list for PBXNativeTarget "JumpingGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FE8986D2159F2030006A0FB /* Debug */,
+				8FE8986E2159F2030006A0FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8FE898362159F1FF0006A0FB /* Project object */;
+}
